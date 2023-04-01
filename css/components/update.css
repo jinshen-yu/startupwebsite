@@ -1,0 +1,37 @@
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-inline li {
+
+  display: inline;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;/*why this doesn't work*/
+  }
+
+
+.list-inline i {
+    font-size: 50px;
+
+}
+
+.list-inline i hover {
+  color: #3C3B3F;
+  background-color: #F7971E;
+  cursor: pointer;
+}
+
+.update{
+  width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
